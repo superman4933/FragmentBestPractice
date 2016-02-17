@@ -52,15 +52,13 @@ super.onAttach(activity);
                     findFragmentById(R.id.news_content_fragment);
             newsContentFragment.refresh(news.getTitle(),news.getContent());
         }else {NewsContentActivity.actionStart(getActivity(),news.getTitle(),news.getContent());
-
-
         }
 
     }
     private List<News> getNews(){
         List<News> newsList=new ArrayList<News>();
         News news1=new News();
-        news1.setTitle("标题1");
+        news1.setTitle("标题哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈1");
         news1.setContent("内容，哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈" +
                 "的点点滴滴" +
                 "dddddd 的");
