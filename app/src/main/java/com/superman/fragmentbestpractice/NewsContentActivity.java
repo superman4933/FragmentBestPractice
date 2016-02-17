@@ -24,7 +24,7 @@ public class NewsContentActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.news_context);
         String newsTitle = getIntent().getStringExtra("news_title");
         String newsContent = getIntent().getStringExtra("news_content");
         NewsContentFragment newsContentFragment=(NewsContentFragment)getFragmentManager().findFragmentById(R.id.news_content_fragment);
