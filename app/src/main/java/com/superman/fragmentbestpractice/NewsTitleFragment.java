@@ -30,6 +30,7 @@ super.onAttach(activity);
     @Override
     public View onCreateView(LayoutInflater inflater,ViewGroup container,Bundle savedInstanceState){
         View view =inflater.inflate(R.layout.news_title_frag,container,false);
+        newsTitleListView=(ListView)view.findViewById(R.id.news_title_list_view);
         newsTitleListView.setAdapter(adapter);
         newsTitleListView.setOnItemClickListener(this);
         return view;

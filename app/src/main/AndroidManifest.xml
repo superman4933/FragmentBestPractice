@@ -10,7 +10,9 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".NewsContentActivity"
-            android:label="@string/app_name"
+            ></activity>
+        <activity
+            android:name="com.superman.fragmentbestpractice.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
